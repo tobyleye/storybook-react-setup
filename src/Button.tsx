@@ -13,6 +13,7 @@ export default function Button({
     <button
       onClick={onClick}
       style={{
+        fontSize: 22,
         color: "white",
         background:
           color === "primary"
